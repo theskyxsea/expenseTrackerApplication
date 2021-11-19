@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>EXPENSE TRACKER</title>
+  </head>
+  <body>
+    <div class="container"><h2>Expense Tracker</h2></div>
+    <div class="inputField">
+      <div>
+        <div>
+          <label for="name">NAME : </label>
+          <input type="text" id="name-el" name="name" required />
+        </div>
+      </div>
+      <br />
+      <div>
+        <label for="date">DATE : </label>
+        <input type="date" id="date-el" />&emsp; &emsp;
+        <label for="amount">AMOUNT : $</label>
+        <input type="number" id="amount-el" placeholder="00.0" value="00.0" />
+      </div>
+    </div>
+
+    <br />
+    <div class="inputField">
+      <button type="submit" id="submit-el">SUBMIT</button>
+    </div>
+    <br />
+    <br />
+    <br />
+    <div class="thisTable center" id="table-el"></div>
+  </body>
+  <script src="index.js"></script>
+</html>
