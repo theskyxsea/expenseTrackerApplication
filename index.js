@@ -8,7 +8,7 @@ let expense = [];
 submitEl.addEventListener("click", function () {
   if (!nameEl.value) return;
   if (!dateEl.value) return;
-  expense = JSON.parse(localStorage.getItem("myList"));
+  //expense = JSON.parse(localStorage.getItem("myList"));
   let name = nameEl.value;
   let date = dateEl.value;
   let amount = amountEl.value;
